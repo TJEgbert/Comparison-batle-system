@@ -6,7 +6,7 @@ These are a handful of files for the turn-based RPG battle system I’m working 
 - The ATB code got moved out of the characters code and into the battle code.
   - It didn’t make sense to have in the characters code since it is only needed during battles.
 -	Damage calculations are handled in the battle code not characters code.
-  - Like above it didn’t make sense to have it in the characters and enemies’ code.
+  -  Like above it didn’t make sense to have it in the characters and enemies’ code.
 -	The enemy and player characters inherit from one base class for stats.
   - This made it so code was standardized between classes simplifying the battle system code.
 -	Simplified players input code during battle.
